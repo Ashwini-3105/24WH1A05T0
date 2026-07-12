@@ -1,0 +1,20 @@
+{
+  "name": "devops",
+  "version": "1.0.0",
+  "description": "",
+  "homepage": "https://github.com/Ashwini-3105/24WH1A05T0#readme",
+  "bugs": {
+    "url": "https://github.com/Ashwini-3105/24WH1A05T0/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ashwini-3105/24WH1A05T0.git"
+  },
+  "license": "ISC",
+  "author": "Ashwini",
+  "type": "commonjs",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
+}
