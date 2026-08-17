@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Student Registration</title>
+
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            background: linear-gradient(135deg, #74ebd5, #ACB6E5);
+            font-family: Arial, sans-serif;
+        }
+
+        .container {
+            width: 500px;
+            margin: 50px auto;
+            background-color: white;
+            padding: 30px;
+            border-radius: 15px;
+            box-shadow: 0 5px 20px rgba(0,0,0,0.3);
+        }
+
+        h2 {
+            text-align: center;
+            color: #333399;
+        }
+
+        label {
+            display: inline-block;
+            width: 150px;
+            margin-bottom: 15px;
+            font-weight: bold;
+            color: #444;
+        }
+
+        input, select, textarea {
+            width: 280px;
+            padding: 8px;
+            border: 1px solid #aaa;
+            border-radius: 5px;
+        }
+
+        textarea {
+            height: 60px;
+            vertical-align: top;
+        }
+
+        .radio, .check {
+            width: auto;
+        }
+
+        .buttons {
+            text-align: center;
+            margin-top: 20px;
+        }
+
+        .buttons input {
+            width: 100px;
+            background-color: #333399;
+            color: white;
+            border: none;
+            cursor: pointer;
+            margin: 5px;
+        }
+
+        .buttons input:hover {
+            background-color: #222266;
+        }
+    </style>
+</head>
+
+<body>
+
+<div class="container">
+
+    <h2>Student Registration Form</h2>
+
+    <form>
+
+        <label>1. Student Name:</label>
+        <input type="text" name="name"><br>
+
+        <label>2. Roll Number:</label>
+        <input type="text" name="roll"><br>
+
+        <label>3. Date of Birth:</label>
+        <input type="date" name="dob"><br>
+
+        <label>4. Gender:</label>
+        <input class="radio" type="radio" name="gender"> Male
+        <input class="radio" type="radio" name="gender"> Female
+        <br><br>
+
+        <label>5. Email:</label>
+        <input type="email" name="email"><br>
+
+        <label>6. Phone:</label>
+        <input type="tel" name="phone"><br>
+
+        <label>7. Address:</label>
+        <textarea name="address"></textarea><br><br>
+
+        <label>8. Branch:</label>
+        <select name="branch">
+            <option>Select Branch</option>
+            <option>CSE</option>
+            <option>ECE</option>
+            <option>EEE</option>
+            <option>MECH</option>
+            <option>CIVIL</option>
+        </select><br>
+
+        <label>9. Course:</label>
+        <select name="course">
+            <option>Select Course</option>
+            <option>B.Tech</option>
+            <option>B.Sc</option>
+            <option>B.Com</option>
+            <option>B.A</option>
+        </select><br>
+
+        <label>10. Year:</label>
+        <select name="year">
+            <option>Select Year</option>
+            <option>1st Year</option>
+            <option>2nd Year</option>
+            <option>3rd Year</option>
+            <option>4th Year</option>
+        </select><br>
+
+        <label>11. College:</label>
+        <input type="text" name="college"><br>
+
+        <label>12. Father's Name:</label>
+        <input type="text" name="father"><br>
+
+        <label>13. Mother's Name:</label>
+        <input type="text" name="mother"><br>
+
+        <label>14. City:</label>
+        <input type="text" name="city"><br>
+
+        <label>15. State:</label>
+        <input type="text" name="state"><br>
+
+        <label>16. PIN Code:</label>
+        <input type="text" name="pincode"><br>
+
+        <label>17. Password:</label>
+        <input type="password" name="password"><br>
+
+        <label>18. Terms:</label>
+        <input class="check" type="checkbox"> I agree
+        <br>
+
+        <div class="buttons">
+            <input type="submit" value="Register">
+            <input type="reset" value="Clear">
+        </div>
+
+    </form>
+
+</div>
+
+</body>
+</html>
